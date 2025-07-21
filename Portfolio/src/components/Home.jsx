@@ -11,7 +11,7 @@ const Home = () => {
         </h1>
         <h3 className="font-normal text-4xl m-2"> based in India</h3>
         <div className="Resumebtn-wrapper m-4">
-          <a href="../assets/Moksha_Pandit_Resume.pdf" target="_blank"><button className="Resumebtn ">Resume</button></a>
+          <a href="../public/Moksha_Pandit_Resume.pdf" download><button className="Resumebtn ">Resume</button></a>
         </div>
       </header>
 
