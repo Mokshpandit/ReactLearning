@@ -3,13 +3,19 @@
 
 body {
   font-family: Poppins, sans-serif;
-  margin: 10px;
+  margin: 0px;
   padding: 0;
   background-color: #FBF8CC;
   color: #03045E;
 }
-
-
+nav {
+  width: 100%;
+  z-index: 50;
+}
+.navbtn:hover {
+  color: #2167ff;
+  text-decoration: underline;
+}
 
 .Resumebtn-wrapper {
       position: relative;

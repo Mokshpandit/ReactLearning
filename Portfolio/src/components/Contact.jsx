@@ -1,16 +1,15 @@
-import React from 'react'
+import React, { forwardRef } from 'react'
 
-const Contact = () => {
+const Contact = forwardRef((props,ref) => {
   return (
-    <div>
-      <div className="justify-center ml-70 mr-180 mb-10">
-        <h1 className="text-[#f7f197] font-extrabold text-[116px] ">
+    <div ref={ref} >
+      <div className="justify-center md:ml-70 md:mr-80 mb-10">
+        <h1 className="text-[#f7f197] font-extrabold md:text-[116px] select-none">
           contact.
         </h1>
         <div className="flex">
-            <img src="" alt="" srcset="" />
 
-          <p className="text-[24px] leading-[44px]">
+          <p className="md:text-[24px] md:leading-[44px]">
             Lorem ipsum dolor sit amet consectetur, adipisicing elit.
             Repellendus corporis, dolorem ea laborum perspiciatis fuga! Ab sequi
             quos earum dolor nisi reprehenderit magnam animi eos necessitatibus
@@ -26,6 +25,6 @@ const Contact = () => {
       </div>
     </div>
   );
-}
+})
 
 export default Contact
