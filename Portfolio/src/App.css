@@ -9,12 +9,7 @@ body {
   color: #03045E;
 }
 
-#myImg {
-  -webkit-mask-image: url('./assets/Mask.png');
-  mask-image: url('./assets/Mask.png');
-  mask-repeat: no-repeat;
-  
-}
+
 
 .Resumebtn-wrapper {
       position: relative;
@@ -50,4 +45,10 @@ body {
 
 .Resumebtn:hover {
   transform: translate(5px, 5px);
+}
+
+ul.aboutlist {
+  list-style-type: disc;
+  font-size: 34px;
+  position: center;
 }
