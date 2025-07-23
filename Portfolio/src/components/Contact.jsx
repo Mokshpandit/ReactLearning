@@ -10,14 +10,9 @@ const Contact = forwardRef((props,ref) => {
         <div className="flex">
 
           <p className="md:text-[24px] md:leading-[44px]">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-            Repellendus corporis, dolorem ea laborum perspiciatis fuga! Ab sequi
-            quos earum dolor nisi reprehenderit magnam animi eos necessitatibus
-            ad est expedita repudiandae, voluptatum facilis quasi tempore
-            obcaecati! Dolorum similique quam incidunt, illo nam possimus
-            doloribus alias doloremque labore reiciendis sit eligendi corrupti!
+            Feel free to reach out for collaboration, project inquiries, or just to connect! I am always open to discussing new opportunities in web development and cloud technologies. <br /><br />You can contact me directly via email, and I’ll get back to you as soon as possible.
             <br />
-            <a href="mailto:moksh.pandit729@gmail.com" className='text-blue-700 underline'>Email: moksh.pandit729@gmail.com</a>
+            Email: <a href="mailto:moksh.pandit729@gmail.com" className='text-blue-700 underline'>moksh.pandit729@gmail.com</a>
             
           </p>
           
