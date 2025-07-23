@@ -53,8 +53,25 @@ nav {
   transform: translate(5px, 5px);
 }
 
-ul.aboutlist {
+@media only screen and (min-width: 768px) {
+ul.aboutulist {
   list-style-type: disc;
   font-size: 34px;
   position: center;
+}}
+
+ul.aboutulist {
+  list-style-type: disc;
+  font-size: 20px;
+  position: center;
+}
+.abtlist {
+  font-size: 16px;
+  line-height: 25px;
+}
+@media only screen and (min-width: 768px) {
+.abtlist {
+  font-size: 22px;
+  line-height: 34px
+}
 }

@@ -19,7 +19,7 @@ const scrollToSection = (ref) => {
   }
 };
   return (
-    <div className="pt-0 p-4 md:p-0 md:m-auto">
+    <div className="pt-0 md:p-0 md:m-auto">
       <Navbar onAboutBtnClick = {()=>scrollToSection(aboutref)} onContactBtnClick = {()=> scrollToSection(contactref)} onHomeBtnClick = {()=> scrollToSection(homeref)} />
 
       <Home ref = {homeref}/>

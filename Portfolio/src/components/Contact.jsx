@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react'
 
 const Contact = forwardRef((props,ref) => {
   return (
-    <div ref={ref} >
+    <div ref={ref} className='pl-5 pr-5 md:pl-0 md:pr-0' >
       <div className="justify-center md:ml-70 md:mr-80 mb-10">
         <h1 className="text-[#f7f197] font-extrabold md:text-[116px] select-none">
           contact.
