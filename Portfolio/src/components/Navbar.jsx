@@ -10,23 +10,23 @@ const Navbar = (props) => {
 
   return (
     <nav className="bg-[#fdf8ca] fixed w-full flex flex-col items-center justify-center md:flex-row md:justify-evenly md:items-center md:h-18 ">
-      <h1 className="text-xl md:text-2xl font-bold text-blue-900 mb-2 md:mb-0">
+      <h1 className="text-xl md:text-2xl font-bold text-blue-900 mb-2 md:mb-0 select-none">
         Moksha Pandit
       </h1>
 
       <ul className="flex gap-10 text-blue-900 font-bold pb-2 md:pb-0">
-        <li className="navbtn cursor-pointer" onClick={props.onHomeBtnClick}>
+        <li className="navbtn cursor-pointer select-none" onClick={props.onHomeBtnClick}>
           Home
         </li>
-        <li className="navbtn cursor-pointer" onClick={props.onAboutBtnClick}>
+        <li className="navbtn cursor-pointer select-none" onClick={props.onAboutBtnClick}>
           About
         </li>
-        <li className="navbtn cursor-pointer" onClick={props.onContactBtnClick}>
+        <li className="navbtn cursor-pointer select-none" onClick={props.onContactBtnClick}>
           Contact
         </li>
             
         
-        <li className="navbtn cursor-pointer relative" onClick={togglePopup}>
+        <li className="navbtn cursor-pointer relative select-none" onClick={togglePopup}>
   Work
   {popupVisible && (
     <span className="absolute left-1/2 -translate-x-1/2 top-full mt-2 bg-gray-700 text-white text-center rounded-lg px-4 py-2 z-50 transition-all duration-300">
