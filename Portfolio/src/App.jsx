@@ -4,11 +4,13 @@ import Navbar from "./components/Navbar";
 import Home from "./components/Home";
 import About from "./components/About";
 import Contact from "./components/Contact";
+import Skills from "./components/Skills";
 
 function App() {
   const aboutref = useRef(null);
   const contactref = useRef(null);
   const homeref = useRef(null);
+  const skillsref = useRef(null);
 
   const scrollToSection = (ref) => {
     if (ref.current) {
@@ -21,10 +23,12 @@ function App() {
         onAboutBtnClick={() => scrollToSection(aboutref)}
         onContactBtnClick={() => scrollToSection(contactref)}
         onHomeBtnClick={() => scrollToSection(homeref)}
+        onSkillsBtnClick={() => scrollToSection(skillsref)}
       />
 
       <Home ref={homeref} />
       <About ref={aboutref} />
+      <Skills ref={skillsref}/>
       <Contact ref={contactref} />
 
       <footer>

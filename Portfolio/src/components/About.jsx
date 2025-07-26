@@ -3,9 +3,9 @@ import React , {forwardRef} from 'react'
 const About = forwardRef((props,ref) => {
   return (
     <div ref={ref} className='pl-5 pr-5 md:pl-0 md:pr-0 '>
-      <div className="justify-center md:ml-70 md:mr-100 mb-3 pt-7">
+      <div className="justify-center md:ml-60 md:mr-60 mb-3 pt-7">
           <h1 className="text-[#f7f197] font-extrabold md:text-[116px] select-none">
-            about.
+            About.
           </h1>
           <p className="md:text-[24px] md:leading-[40px]">
             A motivated and detail-oriented IT graduate with hands-on experience in web development using HTML, CSS, and JavaScript. Strong understanding of Windows operating systems, system setup, and cloud platforms like AWS. Currently building projects that integrate modern frontend technologies with cloud deployment tools. Eager to contribute to innovative teams as a web developer or cloud support engineer.

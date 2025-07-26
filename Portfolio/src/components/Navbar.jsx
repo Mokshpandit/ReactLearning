@@ -21,6 +21,9 @@ const Navbar = (props) => {
         <li className="navbtn cursor-pointer select-none" onClick={props.onAboutBtnClick}>
           About
         </li>
+        <li className="navbtn cursor-pointer select-none" onClick={props.onSkillsBtnClick}>
+          Skills
+        </li>
         <li className="navbtn cursor-pointer select-none" onClick={props.onContactBtnClick}>
           Contact
         </li>
