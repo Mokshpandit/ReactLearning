@@ -7,7 +7,7 @@ const Home = forwardRef((props, ref) => {
       <div className="flex flex-col-reverse md:flex-row items-center justify-center mb-10 pt-24 md:pt-28 select-none w-full">
         <header className="w-full md:w-[38%] flex flex-col items-center md:items-start md:px-0 md:m-25">
           <h3 className="font-normal text-xl md:text-4xl mb-2">Hello, I'm Moksha,</h3>
-          <h1 className="font-extrabold text-5xl sm:text-5xl md:text-[140px] leading-none mb-2 text-center md:text-left">
+          <h1 className="font-extrabold text-5xl md:text-5xl md:text-[140px] leading-none mb-2 text-center md:text-left">
             Web Developer
           </h1>
           <h3 className="font-normal text-xl md:text-4xl mb-4">based in India</h3>

@@ -14,7 +14,7 @@ const Navbar = (props) => {
         Moksha Pandit
       </h1>
 
-      <ul className="flex gap-10 text-blue-900 font-bold pb-2 md:pb-0">
+      <ul className="flex gap-4 md:gap-10 text-blue-900 font-bold pb-2 md:pb-0">
         <li className="navbtn cursor-pointer select-none" onClick={props.onHomeBtnClick}>
           Home
         </li>
