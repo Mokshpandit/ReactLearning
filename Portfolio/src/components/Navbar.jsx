@@ -9,7 +9,7 @@ const Navbar = (props) => {
   };
 
   return (
-    <nav className="bg-[#fdf8ca] fixed w-full flex flex-col items-center justify-center md:flex-row md:justify-evenly md:items-center md:h-18 ">
+    <nav className="bg-[#fdf8caf6] fixed w-full flex flex-col items-center justify-center md:flex-row md:justify-evenly md:items-center md:h-18 ">
       <h1 className="text-xl md:text-2xl font-bold text-blue-900 mb-2 md:mb-0 select-none">
         Moksha Pandit
       </h1>
@@ -46,7 +46,7 @@ const Navbar = (props) => {
         <a href="https://www.linkedin.com/in/moksha-pandit/" target="_blank">
           <FaLinkedin className="md:h-14 cursor-pointer" />
         </a>
-        <a href="https://github.com/Mokshpandit" target="_blank">
+        <a href="https://github.com/Mokshpandit" target="_blank"> 
           <FaGithub className="md:h-14 cursor-pointer" />
         </a>
       </div>
