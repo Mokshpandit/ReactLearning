@@ -53,39 +53,13 @@ const HeroSection = ({isLoaded , items , error}) => {
           </div>
 
           {/* RIGHT COLUMN – Supporting Article */}
-          <div className="space-y-4">
-            <img
-              src="https://images.unsplash.com/photo-1584515933487-779824d29309"
-              alt="Hands joined"
-              className="w-full h-[140px] object-cover border border-gray-300"
-            />
-
-            <div className="space-y-2">
-              {/* Tags */}
-              <div className="flex items-center text-xs uppercase font-semibold text-gray-600 gap-2">
-                <span>🌐 Global</span>
-                <span>🌍 World</span>
-                <span className="ml-auto bg-[#6A4B33] text-white px-2 py-0.5 rounded-sm">
-                  2022
-                </span>
-              </div>
-
-              {/* Title */}
-              <h3 className="text-lg font-serif font-bold text-gray-900 leading-snug">
-                A symbol of hope for global unity
-              </h3>
-
-              {/* Text */}
-              <p className="text-sm text-gray-700">
-                The UN is issuing policy briefs to provide ideas. The United
-                Nations designates specific days, weeks and decades. The density
-                in rural areas only tallies up to 57%...
-              </p>
-            </div>
-          </div>
+          
+          
         </section>
+        
       ))}
       </div>
+      
       )
     );
   }
